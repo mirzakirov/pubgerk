@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+   
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar {
+    font-family: Inter;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.logo {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.language-btn, .play-now {
+    margin-left: 15px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+h1{
+    background-color: #F1A90054;
+    padding: 30px;
+}
+.play-now {
+    background: gold;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.pc-btn, .console-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pc-btn {
+    background: #F1A900;
+    width: 235;
+height: 73;
+
+}
+
+.console-btn {
+    background: black;
+    color: white;
+    width: 235;
+height: 73;
+
+}
+.logo{
+    width: 56;
+height: 46;
+top: 18px;
+left: 57px;
+margin-left: 30px;
+}
+.gap{
+background-color: #222222;
+width: 1440;
+height: 797;
+top: 126px;
+gap: 20px;
+
+}
